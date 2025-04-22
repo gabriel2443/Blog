@@ -1,4 +1,6 @@
-﻿namespace Blog1.Models.Service;
+﻿using Blog1.Models;
+
+namespace Blog1.Service;
 
 public interface IBlogService
 {
