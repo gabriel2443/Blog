@@ -9,4 +9,9 @@ public interface IBlogService
 
     public Task CreateBlog(Blog blog);
 
+    public Task UpdateBlog(int id, Blog blog);
+
+    public Task<bool> DeleteBlog(int id);
+    public Task<List<Blog>> SearchElements(string term);
+
 }
